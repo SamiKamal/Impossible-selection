@@ -5,11 +5,12 @@ html{
 }
 
 body{
-	font-family: 'Balsamiq Sans', cursive;
+	display: flex;
+	align-items: center;
+	height: 100vh;
 }
 
 .custom-control{
-
 	&.material-checkbox{
 		--color: #26a69a;
 

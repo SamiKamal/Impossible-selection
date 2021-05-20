@@ -4,7 +4,13 @@ html {
 }
 
 body {
-  font-family: 'Balsamiq Sans', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
 
 .custom-control.material-checkbox {
